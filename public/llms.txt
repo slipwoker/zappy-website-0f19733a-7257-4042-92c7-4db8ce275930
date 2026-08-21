@@ -1,0 +1,76 @@
+# עמותת הספורט קרית מוצקין — Generative Engine Optimization Map
+
+> A ספורט וקהילה business.
+
+---
+
+## Pages
+
+### בית
+https://motzkin-sports.org.il
+גלו חוגי ספורט מקצועיים לכל המשפחה בקרית מוצקין. הצטרפו לעמותת הספורט שלנו ותהנו מפעילויות קהילתיות מגוונות ומרגשות!
+
+### חוגים ותוכניות
+https://motzkin-sports.org.il/programs
+גלו את מגוון החוגים והתוכניות הספורטיביות שלנו - כדורגל, כדורסל, שחייה, זומבה, יוגה ועוד. חוגי ספורט לילדים קרית מוצקין ולכל המשפחה!
+
+### אודות
+https://motzkin-sports.org.il/about
+הכירו את עמותת הספורט קרית מוצקין - הסיפור שלנו, הערכים שלנו והמחויבות שלנו לקדם ספורט קהילתי לכל תושבי קרית מוצקין.
+
+### צור קשר
+https://motzkin-sports.org.il/contact
+צרו קשר עם עמותת הספורט קרית מוצקין להרשמה לחוגים, שאלות או מידע נוסף. אנחנו כאן כדי לעזור לכם להתחיל את המסע הספורטיבי שלכם!
+
+## Legal & Policy
+
+### Privacy Policy
+https://motzkin-sports.org.il/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://motzkin-sports.org.il/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://motzkin-sports.org.il/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://motzkin-sports.org.il/contact
+- Endpoint: https://motzkin-sports.org.il/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `program` (select)
+  - `message` (textarea)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About עמותת הספורט קרית מוצקין
+עמותת הספורט קרית מוצקין is a business in the ספורט וקהילה industry.
+
+## Target Audience
+תושבי קרית מוצקין המעוניינים בפעילות ספורט
+
+## Industry
+ספורט וקהילה
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://motzkin-sports.org.il/sitemap.xml
+- Robots: https://motzkin-sports.org.il/robots.txt
+- Flattened page text (for LLMs): https://motzkin-sports.org.il/llms-full.txt
