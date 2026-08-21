@@ -1995,9 +1995,16 @@ URL: https://motzkin-sports.org.il/relevant-forms
 
 
 
-הוסף את תוכן הטקסט שלך כאן. זהו טקסט ממלא מקום שניתן לערוך.
+#
+
+#
+
+# טפסים רלוונטיים
+
+# טפסים רלוונטיים
 
 
+##
 
 
 
@@ -2006,6 +2013,8 @@ URL: https://motzkin-sports.org.il/relevant-forms
 #
 
 #
+
+# טפסים רלוונטיים
 
 # טפסים רלוונטיים
 
