@@ -1999,28 +1999,9 @@ URL: https://motzkin-sports.org.il/relevant-forms
 
 #
 
-# טפסים רלוונטיים
-
 #
 
-### טפסים רלוונטיים
-
-
-##
-
-
-
-
-
-#
-
-#
-
-# טפסים רלוונטיים
-
-#
-
-### טפסים רלוונטיים
+###
 
 
 ##
@@ -2035,7 +2016,7 @@ URL: https://motzkin-sports.org.il/relevant-forms
 
 #
 
-### טפסים רלוונטיים
+###
 
 
 ##
