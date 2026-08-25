@@ -1506,6 +1506,23 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   /* Ensure mobile never shows widget even with keyboard shortcut */
 }
 
+#gallery .portfolio-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 16px !important;
+}
+
+#gallery .portfolio-grid > div {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+#gallery .portfolio-grid {
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 12px !important;
+}
+}
+
 /* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
 :root {
   --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
