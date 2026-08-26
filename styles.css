@@ -1523,6 +1523,85 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 }
 
+@media (hover: hover) and (pointer: fine) {
+#programs-full .program-card img {
+  transform-origin: center;
+}
+}
+
+#programs-full .program-card > a > div, #programs-full .program-card > div[data-element-id] {
+  overflow: hidden;
+}
+
+#programs-full .program-card img {
+  transition: transform 0.4s ease;
+  will-change: transform;
+}
+
+#programs-full .program-card > a > div,
+#programs-full .program-card > div[data-element-id] {
+  overflow: hidden;
+}
+
+@media (hover: hover) and (pointer: fine) {
+#programs-full .program-card:hover img {
+  transform: scale(1.06);
+}
+}
+
+@media (hover: none), (pointer: coarse) {
+#programs-full .program-card img {
+  transform: none !important;
+}
+}
+/* Batch: אפקט זום עדין לכל תמונות התוכן באתר */
+@media (hover: hover) and (pointer: fine) {
+  .program-card img,
+  .program-card a img,
+  .team-card img,
+  .team-member img,
+  .gallery-item img,
+  .gallery-grid img,
+  .card img,
+  .about-card img,
+  .value-card img,
+  .testimonial-card img,
+  .programs-grid img,
+  .programs-preview img,
+  .program-category img {
+    transition: transform 0.4s ease;
+    will-change: transform;
+  }
+  .program-card:hover img,
+  .team-card:hover img,
+  .team-member:hover img,
+  .gallery-item:hover img,
+  .gallery-grid img:hover,
+  .card:hover img,
+  .about-card:hover img,
+  .value-card:hover img,
+  .testimonial-card:hover img,
+  .programs-grid .program-card:hover img,
+  .programs-preview .card:hover img,
+  .program-category .program-card:hover img {
+    transform: scale(1.06);
+  }
+}
+/* Batch: הגבלת התמונה בתוך המסגרת עם overflow hidden */
+.program-card a,
+.program-card > a > div,
+.program-card > div[data-element-id],
+.team-card,
+.team-member,
+.gallery-item,
+.card a,
+.card > a,
+.about-card,
+.value-card,
+.testimonial-card {
+  overflow: hidden;
+}
+
 /* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
 :root {
   --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
