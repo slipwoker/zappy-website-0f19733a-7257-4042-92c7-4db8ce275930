@@ -51,7 +51,10 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: Sharon-c@motzkin.org
+- Phone: 048221739
+- Phone (tel): tel:048221739
+- Address: דקר 4, קרית מוצקין, ישראל
 
 ### Contact form
 - URL: https://motzkin-sports.org.il/contact
