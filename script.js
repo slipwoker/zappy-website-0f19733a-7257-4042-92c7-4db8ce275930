@@ -215,6 +215,55 @@ window.onload = function() {
     }, true);
 };
 
+/* ZAPPY_CUSTOM_JS_START:756634d6b490 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function () {
+  var form = document.getElementById('contactForm');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    var name = document.getElementById('name') ? document.getElementById('name').value.trim() : '';
+    var email = document.getElementById('email') ? document.getElementById('email').value.trim() : '';
+    var phone = document.getElementById('phone') ? document.getElementById('phone').value.trim() : '';
+    var program = document.getElementById('program') ? document.getElementById('program').value : '';
+    var message = document.getElementById('message') ? document.getElementById('message').value.trim() : '';
+
+    var lines = [];
+    lines.push('הודעה חדשה מאתר עמותת הספורט קרית מוצקין');
+    lines.push('');
+    lines.push('שם מלא: ' + name);
+    lines.push('אימייל: ' + email);
+    lines.push('טלפון: ' + phone);
+    if (program) { lines.push('חוג מעניין: ' + program); }
+    lines.push('');
+    lines.push('הודעה:');
+    lines.push(message || '-');
+
+    var subject = 'פנייה חדשה מאתר העמותה';
+    var body = lines.join('\n');
+
+    var mailto = 'mailto:Sharon-c@motzkin.org'
+      + '?subject=' + encodeURIComponent(subject)
+      + '&body=' + encodeURIComponent(body);
+
+    window.location.href = mailto;
+  });
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:756634d6b490 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
