@@ -1636,7 +1636,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 #programs-full .instructor-phone {
   color: #1a1a1a;
   text-decoration: none;
-  direction: ltr;
+  direction: rtl;
   white-space: nowrap;
 }
 
