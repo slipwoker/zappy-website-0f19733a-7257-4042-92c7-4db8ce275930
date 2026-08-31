@@ -1602,6 +1602,55 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   overflow: hidden;
 }
 
+#programs-full .instructor-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+#programs-full .instructor-name, #programs-full .instructor-phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #1a1a1a;
+}
+
+#programs-full .instructor-name {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+#programs-full .instructor-name i {
+  flex: 0 0 auto;
+  color: #FF6B35;
+  width: 18px;
+  text-align: center;
+}
+
+#programs-full .instructor-phone {
+  color: #1a1a1a;
+  text-decoration: none;
+  direction: ltr;
+  white-space: nowrap;
+}
+
+#programs-full .instructor-phone i {
+  flex: 0 0 auto;
+  color: #FF6B35;
+  width: 18px;
+  text-align: center;
+}
+
+#programs-full .instructor-phone:hover {
+  color: #FF6B35;
+}
+
 /* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
 :root {
   --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
